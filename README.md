@@ -12,6 +12,10 @@ Decide how the motor and lock are rigged, gather materials, and construct the ph
 * <img src = "https://user-images.githubusercontent.com/59896196/163921633-78396d70-bbad-4ded-8e51-142cc3f6a320.jpg" width="250" height = "400">
 * Using Tinkercad, I created an updated design iteration of my project (updated Tinkercad design [here](https://www.tinkercad.com/things/37gWwb9qrOn-exquisite-blorr/edit))
 * <img src="https://user-images.githubusercontent.com/59896196/163921910-44a6b30e-a00f-4fbd-83e2-be316050d9f9.png" width="400" height="300" >
+* In the Makerspace, I created files for the different components of the computer case on Adobe. Then, I used the laser cutter  to cut out the different parts of my case. I used sandpaper to sand down the edges. Luca, an employee in the Maker Space, guided me on how to use Adobe and the laser cutter.
+* Luca and I also used the laser cutter to engrave a door-knocker shape onto the 4 sides of the case. I thought this was a fun touch to subtly suggest the purpose of the case.
+* <img src = "https://user-images.githubusercontent.com/59896196/163922642-3ec52590-d94d-4e3e-be53-4816910500f9.jpg" width="400" height="300">
+
 
 
 
