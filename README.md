@@ -8,7 +8,8 @@ Secret knock detecting computer lock
 ### Milestone 1: 
 Decide how the motor and lock are rigged, gather materials, and construct the physical device.
 
-* I decided on a Piezo buzzer for the sensor and a 5V DC motor for my motor and sensor. I wanted to use an actuator motor, but concluded that a mini actuator motor of the right voltage would not have enough range of movement to open the lock.
+* I decided on a Piezo buzzer for the sensor and a 5V DC motor for my motor and sensor. I wanted to use an actuator motor, but concluded that a mini actuator motor of the right voltage would not have enough range of movement to open the lock. 
+* The DC motor will lay on its side at one end of the rectangular opening. A curved wire, attached to the end of the motor, will sit inside the hook keep the case closed. When the correct knock is performed, the motor will turn and the curved wire will slightly rotate so that the hook is released, opening the case.
 *  I scavenged some hinges from an old wooden box to use on my computer case. I also scavenged an old raspberry pi case from the Maker Space to use as casing for some of my electric components.
 * <img src = "https://user-images.githubusercontent.com/59896196/163921633-78396d70-bbad-4ded-8e51-142cc3f6a320.jpg" width="250" height = "400">
 * Using Tinkercad, I created an updated design iteration of my project (updated Tinkercad design [here](https://www.tinkercad.com/things/37gWwb9qrOn-exquisite-blorr/edit))
@@ -24,6 +25,10 @@ Decide how the motor and lock are rigged, gather materials, and construct the ph
 
 ### Milestone 2: 
 Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) for the motor to turn when the sensor correctly recognizes a knock.
+
+* Currently, I looking at two options: 
+  * Attempting to adapt [this] (https://www.instructables.com/Secret-Knock-Detecting-Door-Lock/) code, written for Arduino in C+. This requires use of a capacitator which I have not yet figured out.
+  * Adapting [this] (https://github.com/iver56/clap-detection/blob/master/clap.py) code, written in Python for RaspberryPi. This code does not mention any pin connections so I'm having trouble figuring out what sensor is used and how it is attached to the pi.
 
 ### Milestone 3:
 Test all components with the RaspberryPi on a breadboard to test functionality of the code.
