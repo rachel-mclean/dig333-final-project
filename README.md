@@ -27,8 +27,8 @@ Decide how the motor and lock are rigged, gather materials, and construct the ph
 Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) for the motor to turn when the sensor correctly recognizes a knock.
 
 * Currently, I am looking at two options: 
-  * Attempting to adapt [this] (https://www.instructables.com/Secret-Knock-Detecting-Door-Lock/) code, written for Arduino in C+. This requires use of a capacitator which I have not yet figured out.
-  * Adapting [this] (https://github.com/iver56/clap-detection/blob/master/clap.py) code, written in Python for RaspberryPi. This code does not mention any pin connections so I'm having trouble figuring out what sensor is used and how it is attached to the pi.
+  * Attempting to adapt [this](https://www.instructables.com/Secret-Knock-Detecting-Door-Lock/) code, written for Arduino in C+. This requires use of a capacitator which I have not yet figured out.
+  * Adapting [this](https://github.com/iver56/clap-detection/blob/master/clap.py) code, written in Python for RaspberryPi. This code does not mention any pin connections so I'm having trouble figuring out what sensor is used and how it is attached to the pi.
 
 ### Milestone 3:
 Test all components with the RaspberryPi on a breadboard to test functionality of the code.
