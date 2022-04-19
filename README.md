@@ -20,9 +20,6 @@ Decide how the motor and lock are rigged, gather materials, and construct the ph
 * <img src = "https://user-images.githubusercontent.com/59896196/163923232-c8b87a3b-2df0-4f1d-860d-4c9e71e94ca5.jpg" width = "500" height = "400">
 
 
-
-
-
 ### Milestone 2: 
 Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) for the motor to turn when the sensor correctly recognizes a knock.
 
@@ -30,6 +27,6 @@ Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) f
 Test all components with the RaspberryPi on a breadboard to test functionality of the code.
 
 ### Milestone 4:
-Attach a BlueTooth module that sends an alert when the wrong knock is performed.
+Finalize casing for the sensor, motor, and raspberry pi on the physical device. If time permits, attach a BlueTooth module that sends an alert when the wrong knock is performed.
 
 
