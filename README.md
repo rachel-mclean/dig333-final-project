@@ -17,6 +17,7 @@ Decide how the motor and lock are rigged, gather materials, and construct the ph
 * Luca and I also used the laser cutter to engrave a door-knock shape onto the 4 sides of the case. I thought this was a fun touch to subtly suggest the purpose of the case.
 * <img src = "https://user-images.githubusercontent.com/59896196/163922642-3ec52590-d94d-4e3e-be53-4816910500f9.jpg" width="500" height="400">
 * I glued two of the sides using wood glue before realizing that I should attach the hinged part of the case first. I first began to attach the hinge on the outside using a drill, before realizing that the screws ruined the door-knock design on my wooden piece. I then attached the hinge on the inside of the wooden pieces, before realizing that this prevented the hinged side from opening. Finally, I re-attached the hinge to the outside of the case. Unfortunately, this interrupted the engraved design, but worked.
+* My last step was to attach the "hook" on the inside of the hinged piece. I realized the hook I created was far too small, so that it didn't match the opening in the top of the case when glued to the side piece. I remedied this by drilling the hook to a wooden block, so that the hook reaches the opening of the case.
 * I then glued all pieces together and waited for them to dry.
 * <img src = "https://user-images.githubusercontent.com/59896196/163923232-c8b87a3b-2df0-4f1d-860d-4c9e71e94ca5.jpg" width = "500" height = "400">
 
