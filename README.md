@@ -9,7 +9,7 @@ Secret knock detecting computer lock
 Decide how the motor and lock are rigged, gather materials, and construct the physical device.
 
   1. I scavenged some hinges from an old wooden box to use on my physical case. I also scavenged an old raspberry pi case from the Maker Space to use as casing for some of my electric components.
-  1. <img src = "https://user-images.githubusercontent.com/59896196/163921633-78396d70-bbad-4ded-8e51-142cc3f6a320.jpg" width="300" height = "200">
+  1. <img src = "https://user-images.githubusercontent.com/59896196/163921633-78396d70-bbad-4ded-8e51-142cc3f6a320.jpg" width="200" height = "400">
 
 
 ### Milestone 2: 
