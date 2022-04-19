@@ -8,8 +8,11 @@ Secret knock detecting computer lock
 ### Milestone 1: 
 Decide how the motor and lock are rigged, gather materials, and construct the physical device.
 
-  1. I scavenged some hinges from an old wooden box to use on my physical case. I also scavenged an old raspberry pi case from the Maker Space to use as casing for some of my electric components.
+  1. I scavenged some hinges from an old wooden box to use on my computer case. I also scavenged an old raspberry pi case from the Maker Space to use as casing for some of my electric components.
   1. <img src = "https://user-images.githubusercontent.com/59896196/163921633-78396d70-bbad-4ded-8e51-142cc3f6a320.jpg" width="250" height = "400">
+  1. Using Tinkercad, I created an updated design iteration of my project (updated Tinkercad design [here](https://www.tinkercad.com/things/37gWwb9qrOn-exquisite-blorr/edit))
+  1. <img src="https://user-images.githubusercontent.com/59896196/163921910-44a6b30e-a00f-4fbd-83e2-be316050d9f9.png" width="400" height="300" >
+
 
 
 ### Milestone 2: 
