@@ -46,7 +46,7 @@ Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) f
   * I verified my sensor was connected by printing values to serial plotter
   * <img width="379" alt="Show timestamp" src="https://user-images.githubusercontent.com/59896196/165551266-30c5d70d-c391-4f9d-9251-7255bce4fb0f.png">
   * Hooking up the servo motor
-  * <img src="https://user-images.githubusercontent.com/59896196/165603889-6f4c4af1-1763-4823-b384-dd6da6e5bc2a.png" width="300" height = "200">
+  * <img src="https://user-images.githubusercontent.com/59896196/165603889-6f4c4af1-1763-4823-b384-dd6da6e5bc2a.png" width="400" height = "200">
 
 
 
