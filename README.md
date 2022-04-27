@@ -41,9 +41,10 @@ Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) f
   * <img src = "https://user-images.githubusercontent.com/59896196/165549666-4d63bb30-61b6-4343-9e87-f1dbbc5ffd34.jpg" width = "300" height = "500">
   * Unfortunately, this switch was not simple. Running the "Blink" sketch revealed an error. Despite installing some new drivers and spending a lot of time debugging, we were not able to remediate the error.
   * <img src="https://user-images.githubusercontent.com/59896196/165550266-87db00ea-f0e3-4ae9-afc2-181c3f7d64b5.png" width = "300" height = "500">
-
-         
-
+  * I switched to the Adafruit Circuit Playground Express, and was able to run a basic sketch. I successfully connected my circuit using the AO and GND holes.
+  * <img src = "https://user-images.githubusercontent.com/59896196/165551042-1eb92fb1-3194-4d7b-aead-aa1f6efa289a.jpg" width = "300" height = "500">
+  * I verified my sensor was connected by printing values to serial plotter
+  * <img width="379" alt="Show timestamp" src="https://user-images.githubusercontent.com/59896196/165551266-30c5d70d-c391-4f9d-9251-7255bce4fb0f.png">
 
 
 ### Milestone 3:
