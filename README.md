@@ -30,7 +30,20 @@ Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) f
   * Adapting [this](https://www.instructables.com/Secret-Knock-Detecting-Door-Lock/) code, written for Arduino in C+. This required use of a capacitator for the RaspberryPi.
   * Adapting [this](https://github.com/iver56/clap-detection/blob/master/clap.py) code, written in Python for RaspberryPi. This code does not mention any pin connections so I had trouble figuring out what sensor was used and how/if it is attached to the pi.
   * I borrowed a Piezo vibration sensor from Dr. Mundy (datasheet [here](http://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/LDT_Series.pdf))
-  * <img src = "https://user-images.githubusercontent.com/59896196/165547117-4c534c73-d768-407a-918f-26bdeef968af.jpg" width="250" height = "500">
+  * <img src = "https://user-images.githubusercontent.com/59896196/165547117-4c534c73-d768-407a-918f-26bdeef968af.jpg" width="300" height = "500">
+  * To make sure it worked, I connected the sensor to the RaspberryPi. I also used a 1M resistor. “The Piezo is grounded on one end, and a generated voltage is routed to the 3.3v pin. Reading the voltage at that pin should give us an idea of how much the piezo is moving.”
+  * <img src="https://user-images.githubusercontent.com/59896196/165549001-18351730-207b-45dd-81f7-7ac144fe22cb.png" width = "400" height = "250">
+  * <img src = "https://user-images.githubusercontent.com/59896196/165548139-5756cb01-71dd-40da-9183-11fe42d087d8.jpg" width = "300" height = "500">
+  * The multimeter correctly read 3.3v. However, knocking created no change in this value.
+  * Reading the datasheet informed me that the changes were in mV. I changed the pin to the 5v, and knocks correctly registered small changes in voltage.
+  * <img src = "https://user-images.githubusercontent.com/59896196/165549275-7070b5e6-1482-4c55-a3da-b1ee2c132f51.jpg" width = "300" height = "500">
+  * At this point, I decided to switch from the RaspberryPi to the Arduino Uno. This decision was based on the fact that most reference code was written for the Arduino.
+  * <img src = "https://user-images.githubusercontent.com/59896196/165549666-4d63bb30-61b6-4343-9e87-f1dbbc5ffd34.jpg" width = "300" height = "500">
+  * Unfortunately, this switch was not simple. Running the "Blink" sketch revealed an error. Despite installing some new drivers and spending a lot of time debugging, we were not able to remediate the error.
+  * <img src="https://user-images.githubusercontent.com/59896196/165550266-87db00ea-f0e3-4ae9-afc2-181c3f7d64b5.png" width = "300" height = "500">
+
+         
+
 
 
 ### Milestone 3:
