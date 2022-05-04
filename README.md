@@ -48,6 +48,9 @@ Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) f
   * Hooking up the servo motor, using A3, GND, and VOUT
   * <img src="https://user-images.githubusercontent.com/59896196/165603889-6f4c4af1-1763-4823-b384-dd6da6e5bc2a.png" width="400" height = "200">
   * <img src = "https://user-images.githubusercontent.com/59896196/165610020-f86bd2e6-6096-4a9c-9021-f3c55de43d57.jpg" width = "300" height = "500">
+  * I realized the Piezo vibration sensor was not consistently reading knock values as expected. I switched to a Piezo knock sensor and was able to use the same circuit setup, and the readings were much better.
+  * <img src = "https://user-images.githubusercontent.com/59896196/166705320-82a842e0-c1a5-475a-994b-9145ad9e4bf9.jpg" width = "300" height = "500">
+
 
 
 ### Milestone 3:
