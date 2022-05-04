@@ -1,7 +1,7 @@
 # dig333-final-project
 Secret knock detecting computer lock
 
-#### Milestones: [1](#Milestone-1) [2-3](#Milestone-2-&-Milestone-3) [4](#Milestone-4)
+#### Milestones: [1](#Milestone-1) [2-3](#Milestone-2-and-Milestone-3) [4](#Milestone-4)
 
 ## Final Project Milestones
 
@@ -23,7 +23,7 @@ Decide how the motor and lock are rigged, gather materials, and construct the ph
 * <img src = "https://user-images.githubusercontent.com/59896196/163923232-c8b87a3b-2df0-4f1d-860d-4c9e71e94ca5.jpg" width = "500" height = "400">
 
 
-### Milestone 2 & Milestone 3:
+### Milestone 2 and Milestone 3:
 Milestone 2 - Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) for the motor to turn when the sensor correctly recognizes a knock.
 Milestone 3 - Test all components with the Arduino on a breadboard to test functionality of the code.
 
