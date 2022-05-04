@@ -50,13 +50,16 @@ Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) f
   * <img src = "https://user-images.githubusercontent.com/59896196/165610020-f86bd2e6-6096-4a9c-9021-f3c55de43d57.jpg" width = "300" height = "500">
   * I realized the Piezo vibration sensor was not consistently reading knock values as expected. I switched to a Piezo knock sensor and was able to use the same circuit setup, and the readings were much better.
   * <img src = "https://user-images.githubusercontent.com/59896196/166705320-82a842e0-c1a5-475a-994b-9145ad9e4bf9.jpg" width = "300" height = "500">
-  * Modifying [this](https://electronics.divinechildhighschool.org/electronics-class/logs-for-fall-2009/secret-knock-final) code to work for the Adafruit Circuit Playground, I was able to recognize a secret knock! I used print statements in the serial monitor to ensure the secret knock had been performed.
+  * Modifying [this](https://electronics.divinechildhighschool.org/electronics-class/logs-for-fall-2009/secret-knock-final) code to work for the Adafruit Circuit Playground, and referencing [this](https://codepen.io/owenmundy/pen/abErxLv?editors=0011) CodePen project by Dr. Mundy, I was able to recognize a secret knock! I used print statements in the serial monitor to ensure the secret knock had been performed.
   * <img src="https://user-images.githubusercontent.com/59896196/166722781-d177bc75-ee42-49a0-9c48-6ae18f97fd6f.png" width="700" height = "300">
+  * I also ensured that it correctly recognized when a knock failed.
+  * <img src="https://user-images.githubusercontent.com/59896196/166723639-61edeab2-e995-4138-b468-523fe9f9edd6.png" width="700" height = "300">
+
 
 
 
 ### Milestone 3:
-Test all components with the RaspberryPi on a breadboard to test functionality of the code.
+Test all components with the Arduino on a breadboard to test functionality of the code.
 
 ### Milestone 4:
 Finalize casing for the sensor, motor, and raspberry pi on the physical device. If time permits, attach a BlueTooth module that sends an alert when the wrong knock is performed.
