@@ -58,6 +58,10 @@ Milestone 3 - Test all components with the Arduino on a breadboard to test funct
  * <img src="https://user-images.githubusercontent.com/59896196/166722781-d177bc75-ee42-49a0-9c48-6ae18f97fd6f.png" width="700" height = "300">
  * I also ensured that it correctly recognized when a knock failed.
  * <img src="https://user-images.githubusercontent.com/59896196/166723639-61edeab2-e995-4138-b468-523fe9f9edd6.png" width="700" height = "300">
+ * I got the code for the motor working. The most difficult part was figuring out which angles I needed the Servo to turn to, in relation to the position the Servo would be laying in on the case.
+ * https://user-images.githubusercontent.com/59896196/166842343-28a13e42-31e1-400a-b8df-9f518afb9f1b.mp4
+
+
 
 
 ### Milestone 4:
