@@ -1,7 +1,7 @@
 # dig333-final-project
 Secret knock detecting computer lock
 
-#### Milestones: [1](#Milestone-1) [2](#Milestone-2) [3](#Milestone-3) [4](#Milestone-4)
+#### Milestones: [1](#Milestone-1) [2-3](#Milestone-2-&-Milestone-3) [4](#Milestone-4)
 
 ## Final Project Milestones
 
