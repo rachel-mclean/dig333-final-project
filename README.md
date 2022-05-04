@@ -58,11 +58,8 @@ Milestone 3 - Test all components with the Arduino on a breadboard to test funct
  * <img src="https://user-images.githubusercontent.com/59896196/166722781-d177bc75-ee42-49a0-9c48-6ae18f97fd6f.png" width="700" height = "300">
  * I also ensured that it correctly recognized when a knock failed.
  * <img src="https://user-images.githubusercontent.com/59896196/166723639-61edeab2-e995-4138-b468-523fe9f9edd6.png" width="700" height = "300">
- * I finished the code for the motor. The most difficult part was figuring out which angles I needed the Servo to turn to, in relation to the position the Servo would be laying in on the case. In my case, the Servo starts at 90 degree, moves to 0 degrees, stays there for 5 seconds so you have time to remove your computer from the case, then moves back to 90 degrees. 
- * [video of motor here](https://user-images.githubusercontent.com/59896196/166842343-28a13e42-31e1-400a-b8df-9f518afb9f1b.mp4)
-
-
-
+ * I finished the code for the motor. The most difficult part was figuring out at which angle I needed the Servo to turn, in relation to the position the Servo would be on the case. I determined that the Servo needs to start at 90 degree, move to 0 degrees, stay there for ~5 seconds so that you have time to remove your computer from the case, before moving back to 90 degrees to relock. 
+ * [Video of motor here](https://user-images.githubusercontent.com/59896196/166842343-28a13e42-31e1-400a-b8df-9f518afb9f1b.mp4)
 
 ### Milestone 4:
 Finalize casing for the sensor, motor, and raspberry pi on the physical device. If time permits, attach a BlueTooth module that sends an alert when the wrong knock is performed.
