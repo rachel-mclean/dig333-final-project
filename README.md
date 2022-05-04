@@ -23,6 +23,7 @@ Decide how the motor and lock are rigged, gather materials, and construct the ph
 * <img src = "https://user-images.githubusercontent.com/59896196/163923232-c8b87a3b-2df0-4f1d-860d-4c9e71e94ca5.jpg" width = "500" height = "400">
 
 
+
 ### Milestone 2 and Milestone 3:
 Milestone 2 - Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) for the motor to turn when the sensor correctly recognizes a knock.
 
@@ -60,5 +61,9 @@ Milestone 3 - Test all components with the Arduino on a breadboard to test funct
 
 ### Milestone 4:
 Finalize casing for the sensor, motor, and raspberry pi on the physical device. If time permits, attach a BlueTooth module that sends an alert when the wrong knock is performed.
+
+* Upon Dr. Mundy's recommendation, I added a structure on top of the Piezo sensor, consisting of an eraser and a square of cardboard. This allowed the knocking platform to essentially become extended, making it easier to knock.
+* <img src = "https://user-images.githubusercontent.com/59896196/166813794-7b3f1776-6bbd-43f2-a6c9-ef36d7c014b2.jpg" width="300" height="500"
+
 
 
