@@ -25,6 +25,7 @@ Decide how the motor and lock are rigged, gather materials, and construct the ph
 
 ### Milestone 2 and Milestone 3:
 Milestone 2 - Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) for the motor to turn when the sensor correctly recognizes a knock.
+
 Milestone 3 - Test all components with the Arduino on a breadboard to test functionality of the code.
 
 * Initially, I looked at two options: 
