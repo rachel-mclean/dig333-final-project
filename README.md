@@ -23,8 +23,9 @@ Decide how the motor and lock are rigged, gather materials, and construct the ph
 * <img src = "https://user-images.githubusercontent.com/59896196/163923232-c8b87a3b-2df0-4f1d-860d-4c9e71e94ca5.jpg" width = "500" height = "400">
 
 
-### Milestone 2: 
-Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) for the motor to turn when the sensor correctly recognizes a knock.
+### Milestone 2 & Milestone 3:
+Milestone 2 - Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) for the motor to turn when the sensor correctly recognizes a knock.
+Milestone 3 - Test all components with the Arduino on a breadboard to test functionality of the code.
 
 * Initially, I looked at two options: 
   * Adapting [this](https://www.instructables.com/Secret-Knock-Detecting-Door-Lock/) code, written for Arduino in C+. This required use of a capacitator for the RaspberryPi.
@@ -55,11 +56,6 @@ Write the necessary Python Code: 1) for the sensor to recognize a knock and 2) f
   * I also ensured that it correctly recognized when a knock failed.
   * <img src="https://user-images.githubusercontent.com/59896196/166723639-61edeab2-e995-4138-b468-523fe9f9edd6.png" width="700" height = "300">
 
-
-
-
-### Milestone 3:
-Test all components with the Arduino on a breadboard to test functionality of the code.
 
 ### Milestone 4:
 Finalize casing for the sensor, motor, and raspberry pi on the physical device. If time permits, attach a BlueTooth module that sends an alert when the wrong knock is performed.
