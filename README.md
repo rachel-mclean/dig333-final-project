@@ -51,7 +51,7 @@ Milestone 3 - Test all components with the Arduino on a breadboard to test funct
  * Hooking up the servo motor, using A3, GND, and VOUT
  * <img src="https://user-images.githubusercontent.com/59896196/165603889-6f4c4af1-1763-4823-b384-dd6da6e5bc2a.png" width="400" height = "200">
  * <img src = "https://user-images.githubusercontent.com/59896196/165610020-f86bd2e6-6096-4a9c-9021-f3c55de43d57.jpg" width = "300" height = "500">
- * I realized the Piezo vibration sensor was not consistently reading knock values as expected. I switched to a Piezo knock sensor and was able to use the same circuit setup, and the readings were much better. The higher values at the bottom are knocks.
+ * I realized the Piezo vibration sensor was not consistently reading knock values as expected, and had too much "fuzz." I switched to a Piezo knock sensor and was able to use the same circuit setup, and the readings on the serial monitor were much better. The higher values at the bottom of the image below are knocks.
  * <img src="https://user-images.githubusercontent.com/59896196/166840781-7bd66b02-aac7-4a7c-8ff2-25e1b603d842.png" width="500" height="200">
  * <img src = "https://user-images.githubusercontent.com/59896196/166705320-82a842e0-c1a5-475a-994b-9145ad9e4bf9.jpg" width = "300" height = "500">
  * Modifying [this](https://electronics.divinechildhighschool.org/electronics-class/logs-for-fall-2009/secret-knock-final) code to work for the Adafruit Circuit Playground, and referencing [this](https://codepen.io/owenmundy/pen/abErxLv?editors=0011) CodePen project by Dr. Mundy, I was able to recognize a secret knock! I used print statements in the serial monitor to ensure the secret knock had been performed. The knock used below is "Shave and a haircut, two bits."
