@@ -1,9 +1,11 @@
 # dig333-final-project
 Secret knock detecting computer lock
 
-#### Milestones: [1](#Milestone-1) [2-3](#Milestone-2-and-Milestone-3) [4](#Milestone-4)
+#### Milestones: [Creator Statement](#Creator-Statement) [1](#Milestone-1) [2-3](#Milestone-2-and-Milestone-3) [4](#Milestone-4) [Documentation](#Documentation)
 
 ## Final Project Milestones
+
+### Creator Statement:
 
 ### Milestone 1: 
 Decide how the motor and lock are rigged, gather materials, and construct the physical device.
@@ -78,6 +80,8 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * I ensured that I could lock my computer in the case as expected, and safely remove it without damage.
 * <img src="https://user-images.githubusercontent.com/59896196/166857625-7d142d5a-8acd-4ed2-8419-afeb71f2e192.png" width="350" height="500">
 * [Here](https://drive.google.com/file/d/17VQdevyxY7oh-yV1l8Z1jtMKHQi6uyib/view?usp=sharing) is a video of the lock in action. My computer is locked inside the case before the correct secret knock is performed, and I am able to remove it when I use the secret knock.
+
+### Documentation:
 
 
 
