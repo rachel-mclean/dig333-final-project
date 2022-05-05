@@ -5,9 +5,9 @@ Secret knock detecting computer lock
 
 #### Milestones:  [1](#Milestone-1) [2-3](#Milestone-2-and-Milestone-3) [4](#Milestone-4)
 
-## Final Project Milestones
+## Creator Statement:
 
-### Creator Statement:
+## Final Project Milestones
 
 ### Milestone 1: 
 Decide how the motor and lock are rigged, gather materials, and construct the physical device.
@@ -83,9 +83,9 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * <img src="https://user-images.githubusercontent.com/59896196/166857625-7d142d5a-8acd-4ed2-8419-afeb71f2e192.png" width="350" height="500">
 * [Here](https://drive.google.com/file/d/17VQdevyxY7oh-yV1l8Z1jtMKHQi6uyib/view?usp=sharing) is a video of the lock in action. My computer is locked inside the case before the correct secret knock is performed, and I am able to remove it when I use the secret knock.
 
-### Documentation:
+## Documentation:
 
-## Materials Needed
+### Materials Needed
 * Adafruit Circuit Playground Express
 * Mini 9g Servo motor
 * Piezo knock sensor
@@ -107,7 +107,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * Wood glue
 * The file “secret_knock_computer_lock_code.ino” in this repository
 
-## Instructions
+### Instructions
 
 1. [Install](https://www.arduino.cc/en/software) Arduino on your computer.
 2. Plug the Adafruit Circuit Express into one of the ports on your computer. You'll need a USCB adaptor if you have a Mac.
