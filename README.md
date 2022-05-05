@@ -1,7 +1,9 @@
 # dig333-final-project
 Secret knock detecting computer lock
 
-#### Milestones: [Creator Statement](#Creator-Statement) [1](#Milestone-1) [2-3](#Milestone-2-and-Milestone-3) [4](#Milestone-4) [Documentation](#Documentation)
+#### Deliverables[Creator Statement](#Creator-Statement) [Documentation](#Documentation)
+
+#### Milestones:  [1](#Milestone-1) [2-3](#Milestone-2-and-Milestone-3) [4](#Milestone-4) [Documentation](#Documentation)
 
 ## Final Project Milestones
 
