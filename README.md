@@ -58,7 +58,7 @@ Milestone 3 - Test all components with the Arduino on a breadboard to test funct
  * <img src="https://user-images.githubusercontent.com/59896196/166722781-d177bc75-ee42-49a0-9c48-6ae18f97fd6f.png" width="700" height = "300">
  * I also ensured that it correctly recognized when a knock failed.
  * <img src="https://user-images.githubusercontent.com/59896196/166723639-61edeab2-e995-4138-b468-523fe9f9edd6.png" width="700" height = "300">
- * I finished the code for the motor. The most difficult part was figuring out at which angle I needed the Servo to turn, in relation to the position the Servo would be on the case. I determined that the Servo needs to start at 90 degree, move to 0 degrees, stay there for ~5 seconds so that you have time to remove your computer from the case, before moving back to 90 degrees to relock. 
+ * I finished the code for the motor. The most difficult part was figuring out at which angle I needed the Servo to turn, in relation to the position the Servo would be on the case. I initially determined that the Servo needs to start at 90 degree, move to 0 degrees, stay there for ~5 seconds so that you have time to remove your computer from the case, before moving back to 90 degrees to relock. After some trial and error, I realized that my Servo appears to be calibrated slightly off center, so I start at 75 degrees instead of 90.
  * [Video of motor here](https://user-images.githubusercontent.com/59896196/166842343-28a13e42-31e1-400a-b8df-9f518afb9f1b.mp4)
 
 ### Milestone 4:
@@ -66,7 +66,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 
 * Upon Dr. Mundy's recommendation, I added a structure on top of the Piezo sensor, consisting of an eraser and a square of cardboard. This allowed the knocking platform to essentially become extended, making it easier to knock.
 * <img src = "https://user-images.githubusercontent.com/59896196/166813794-7b3f1776-6bbd-43f2-a6c9-ef36d7c014b2.jpg" width="350" height="500">
-* I re-tested all components together, [video here](https://drive.google.com/file/d/1woGJzguI93DCRYlKL7eZGD9Rzqljm2yh/view?usp=sharing) 
+* I re-tested all components together, [Video Here.](https://drive.google.com/file/d/1woGJzguI93DCRYlKL7eZGD9Rzqljm2yh/view?usp=sharing) 
 * I realized that I can run the program with my computer closed. This is good, because it means I can actually lock my computer using my project. Otherwise it would be completely useless!
 
 
