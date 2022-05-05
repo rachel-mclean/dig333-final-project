@@ -90,12 +90,14 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * Mini 9g Servo motor
 * Piezo knock sensor
 * 1M resistor
+* Breadboard
 * USBC adaptor, if you have a Mac computer
-* Wood, enough to build the 6 pieces in the dimensions given below
+* Wood, enough to build the 6 pieces in the dimensions given below (for a MacBook Pro)
 * 1 hinge
 * 6 screws
 * 1 sewing needle (or similar)
 * Staples
+* Wire
 * Small rubber band
 * Eraser (or similar)
 * Access to Adobe (optional)
@@ -110,11 +112,22 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 3. Go to “Tools.” Click “Manage Libraries.” Search “Adafruit Circuit Playground Express” and install the resulting library. Search "Servo" and install the resulting library.
 4. If errors occur, make sure the correct board and port are selected by clicking "Tools." Make sure all necessary libraries are installed.
 5. Select File —> Examples —> Adafruit Circuit Playground —> Hello_CircuitPlayground —> Hello_Blink. 
-6. Click verify and upload in the lefthand corner (the buttons looks like a check mark and right arrow). You might get a pop up on your computer that says “Disk not ejected properly” when you upload sketches. You can ignore this. This step is to check that your Adafruit Circuit Playground is working as expected.
+6. Click verify and upload in the left-hand corner (the buttons looks like a check mark and right arrow). You might get a pop up on your computer that says “Disk not ejected properly” when you upload sketches. You can ignore this. This step is to check that your Adafruit Circuit Playground is working as expected.
 7. Set up your circuit according to this schematic, using your 1M resistor and Piezo knock sensor (your sensor and Adafruit Circuit Playground Express look different than the ones in this picture, but the circuit is the same). Use the AO and GND pins on the Adafruit Circuit Playground Express.
 <img src="https://user-images.githubusercontent.com/59896196/165549001-18351730-207b-45dd-81f7-7ac144fe22cb.png" width = "400" height = "250">
-8. Add in your Servo motor using this schematic, using A3, GND, and VOUT pins. 
+8. Select File —> Examples —> Adafruit Circuit Playground —> analog_sensors. Upload the file, then click the serial monitor button in the right-hand corner (it looks like a magnifying glass). Tap your Piezo knock sensor and verify that the serial monitor is printing values that make sense.
+9. Add your Servo motor to the circuit using this schematic. I used the A3, GND, and VOUT pins, but you can also use A2.
 <img src="https://user-images.githubusercontent.com/59896196/165603889-6f4c4af1-1763-4823-b384-dd6da6e5bc2a.png" width="400" height = "200">
+11. Download the sketch "secret_knock_computer_lock_code.ino" in this repository. Open it in Arduino and upload the sketch.
+12. Open the serial monitor and try tapping out the knock "Shave and a haircut, 2 bits" on your Piezo knock sensor. The serial monitor should print when you start knocking, and also print to indicate each subsequent knock. It should also print if your knock was correct or incorrect. If you knock was correct, the motor should turn. Mess around with the constant values at the top if needed.
+13. Using a laser cutter, cut out the 6 pieces of wood illustrated below in the given dimensions. These dimensions are for a MacBook Pro. If you have a bigger computer, you'll need to adjust the measurements.
+14. For fun, you can engrave a design on the wood using a laser engraver. I engraved a door knock.
+15. Use a drill and 2 screws to attach your hinge to one cross piece and one small piece. I messed up and attached the hinge wrong several times. To make it look nice, you'll want to drill the hinge to the part of the wood that will be on the inside of the case. *Make sure* the small square is situated slightly beyond the end of the cross piece of wood, and not directly on top. Otherwise the edges of the wood will collide and there will not be enough space for the small wooden piece to hinge open.
+16. Glue the rest of the pieces together using wood glue according to the design below and let it dry for 24-48 hours. Or, attach them in some other way.
+<img src="https://user-images.githubusercontent.com/59896196/163921910-44a6b30e-a00f-4fbd-83e2-be316050d9f9.png" width="400" height="300" >
+15. I attached the servo motor to the top of my case, just beyond the hole. I attached a sewing needle to the Servo motor using a staple and tiny rubber band. I attached a loop made of wire to the inside of the front piece of wood. When the sewing needle is inside this loop, the lock stays closed. When the case is unlocked and the motor turns, the sewing needle rotates out of the loop and the case can be unlocked.
+16. I put the rest of my components inside a box with a hole in the top. I let the sensor stick outside on top of the box. I attached an eraser to the top of the sensor to extend the knocking platform.
+17. Before you lock your computer, try locking a textbook or notebook. Make sure you can place and remove the textbook without scratching or damaging it before trying it out on your computer.
 
 
 
