@@ -3,7 +3,7 @@ Secret knock detecting computer lock
 
 #### Deliverables: [Creator Statement,](#Creator-Statement) [Documentation](#Documentation)
 
-#### Milestones:  [1](#Milestone-1) [2-3](#Milestone-2-and-Milestone-3) [4](#Milestone-4) [Documentation](#Documentation)
+#### Milestones:  [1](#Milestone-1) [2-3](#Milestone-2-and-Milestone-3) [4](#Milestone-4)
 
 ## Final Project Milestones
 
@@ -84,6 +84,34 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * [Here](https://drive.google.com/file/d/17VQdevyxY7oh-yV1l8Z1jtMKHQi6uyib/view?usp=sharing) is a video of the lock in action. My computer is locked inside the case before the correct secret knock is performed, and I am able to remove it when I use the secret knock.
 
 ### Documentation:
+
+## Materials Needed
+* Adafruit Circuit Playground Express
+* Mini 9g Servo motor
+* Piezo knock sensor
+* 1M resistor
+* USBC adaptor, if you have a Mac computer
+* Wood, enough to build the 6 pieces in the dimensions given below
+* 1 hinge
+* 6 screws
+* 1 sewing needle (or similar)
+* Staples
+* Small rubber band
+* Eraser (or similar)
+* Access to Adobe (optional)
+* Laser cutter/engraver (optional)
+* Wood glue
+* The file “secret_knock_computer_lock_code.ino” in this repository
+
+## Instructions
+
+1. [Install](https://www.arduino.cc/en/software) Arduino on your computer.
+2. Plug the Adafruit Circuit Express into one of the ports on your computer. You'll need a USCB adaptor if you have a Mac.
+3. Go to “Tools.” Click “Manage Libraries.” Search “Adafruit Circuit Playground Express” and install the resulting library. Search "Servo" and install the resulting library.
+4. If errors occur, make sure the correct board and port are selected by clicking "Tools." Make sure all necessary libraries are installed.
+5. Select File —> Examples —> Adafruit Circuit Playground —> Hello_CircuitPlayground —> Hello_Blink. 
+6. Click verify and upload in the lefthand corner (the buttons looks like a check mark and right arrow). You might get a pop up on your computer that says “Disk not ejected properly” when you upload sketches. You can ignore this. This step is to check that your Adafruit Circuit Playground is working as expected.
+7. Set up your circuit according to this schematic, using your 1M resistor and Piezo knock sensor (your sensor and Adafruit Circuit Playground look different than the ones in this picture, but the circuit is the same).
 
 
 
