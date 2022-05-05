@@ -66,6 +66,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 
 * Upon Dr. Mundy's recommendation, I added a structure on top of the Piezo sensor, consisting of an eraser and a square of cardboard. This allowed the knocking platform to essentially become extended, making it easier to knock.
 * <img src = "https://user-images.githubusercontent.com/59896196/166813794-7b3f1776-6bbd-43f2-a6c9-ef36d7c014b2.jpg" width="350" height="500">
+* I re-tested all components together, [video here](https://drive.google.com/file/d/1woGJzguI93DCRYlKL7eZGD9Rzqljm2yh/view?usp=sharing) 
 * I realized that I can run the program with my computer closed. This is good, because it means I can actually lock my computer using my project. Otherwise it would be completely useless!
 
 
