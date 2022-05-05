@@ -93,7 +93,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * Breadboard
 * Alligator clip leads
 * Male/male jumper wires
-* USBC adaptor, if you have a Mac computer
+* USB-C adaptor, if you have a Mac computer
 * Wood, enough to build the 6 pieces in the dimensions given below (for a MacBook Pro)
 * 1 hinge
 * 6 screws
@@ -110,7 +110,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 ### Instructions
 
 1. [Install](https://www.arduino.cc/en/software) Arduino on your computer.
-2. Plug the Adafruit Circuit Express into one of the ports on your computer. You'll need a USCB adaptor if you have a Mac.
+2. Plug the Adafruit Circuit Express into one of the ports on your computer. You'll need a USB-C adaptor if you have a Mac.
 3. Go to “Tools.” Click “Manage Libraries.” Search “Adafruit Circuit Playground Express” and install the resulting library. Search "Servo" and install the resulting library.
 4. If errors occur, make sure the correct board and port are selected by clicking "Tools." Make sure all necessary libraries are installed.
 5. Select File —> Examples —> Adafruit Circuit Playground —> Hello_CircuitPlayground —> Hello_Blink. 
