@@ -111,7 +111,10 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 4. If errors occur, make sure the correct board and port are selected by clicking "Tools." Make sure all necessary libraries are installed.
 5. Select File —> Examples —> Adafruit Circuit Playground —> Hello_CircuitPlayground —> Hello_Blink. 
 6. Click verify and upload in the lefthand corner (the buttons looks like a check mark and right arrow). You might get a pop up on your computer that says “Disk not ejected properly” when you upload sketches. You can ignore this. This step is to check that your Adafruit Circuit Playground is working as expected.
-7. Set up your circuit according to this schematic, using your 1M resistor and Piezo knock sensor (your sensor and Adafruit Circuit Playground look different than the ones in this picture, but the circuit is the same).
+7. Set up your circuit according to this schematic, using your 1M resistor and Piezo knock sensor (your sensor and Adafruit Circuit Playground Express look different than the ones in this picture, but the circuit is the same). Use the AO and GND pins on the Adafruit Circuit Playground Express.
+<img src="https://user-images.githubusercontent.com/59896196/165549001-18351730-207b-45dd-81f7-7ac144fe22cb.png" width = "400" height = "250">
+8. Add in your Servo motor using this schematic, using A3, GND, and VOUT pins. 
+<img src="https://user-images.githubusercontent.com/59896196/165603889-6f4c4af1-1763-4823-b384-dd6da6e5bc2a.png" width="400" height = "200">
 
 
 
