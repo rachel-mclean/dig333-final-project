@@ -91,6 +91,8 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * Piezo knock sensor
 * 1M resistor
 * Breadboard
+* Alligator clip leads
+* Male/male jumper wires
 * USBC adaptor, if you have a Mac computer
 * Wood, enough to build the 6 pieces in the dimensions given below (for a MacBook Pro)
 * 1 hinge
