@@ -68,6 +68,8 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * <img src = "https://user-images.githubusercontent.com/59896196/166813794-7b3f1776-6bbd-43f2-a6c9-ef36d7c014b2.jpg" width="350" height="500">
 * I re-tested all components together, [Video Here.](https://drive.google.com/file/d/1woGJzguI93DCRYlKL7eZGD9Rzqljm2yh/view?usp=sharing) 
 * I realized that I can run the program with my computer closed. This is good, because it means I can actually lock my computer using my project. Otherwise it would be completely useless!
+* I rigged the lock using a sewing needle.
+* <img src = "https://user-images.githubusercontent.com/59896196/166852966-e2647870-12a0-403d-bbae-aa355c347371.jpg" width="350" height="500">
 
 
 
