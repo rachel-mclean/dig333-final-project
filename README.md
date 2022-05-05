@@ -8,8 +8,8 @@ Secret knock detecting computer lock
 ### Milestone 1: 
 Decide how the motor and lock are rigged, gather materials, and construct the physical device.
 
-* I decided on a Piezo buzzer for the sensor and a 5V DC motor for my motor and sensor. I wanted to use an actuator motor, but concluded that a mini actuator motor of the right voltage would not have enough range of movement to open the lock. 
-* The DC motor will lay on its side at one end of the rectangular opening. A curved wire, attached to the end of the motor, will sit inside the hook keep the case closed. When the correct knock is performed, the motor will turn and the curved wire will slightly rotate so that the hook is released, opening the case.
+* I decided on a Piezo buzzer for the sensor and a 9g mini Servo motor for my motor and sensor. I wanted to use an actuator motor, but concluded that a mini actuator motor of the right voltage would not have enough range of movement to open the lock. 
+* The Servo motor will lay on its side at one end of the rectangular opening. A sewing needle, attached to the propellor of the motor, will sit inside a loop, which prevents the case from opening. When the correct knock is performed, the motor will turn and the sewing needle will slightly rotate so that the loop is released, allowing the case to be opened.
 *  I scavenged some hinges from an old wooden box to use on my computer case. I also scavenged an old raspberry pi case from the Maker Space to use as casing for some of my electric components.
 * <img src = "https://user-images.githubusercontent.com/59896196/163921633-78396d70-bbad-4ded-8e51-142cc3f6a320.jpg" width="250" height = "400">
 * Using Tinkercad, I created an updated design iteration of my project (updated Tinkercad design [here](https://www.tinkercad.com/things/37gWwb9qrOn-exquisite-blorr/edit))
