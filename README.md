@@ -94,7 +94,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * Alligator clip leads
 * Male/male jumper wires
 * USB-C adaptor, if you have a Mac computer
-* Wood, enough to build the 6 pieces in the dimensions given below (for a MacBook Pro)
+* Wood or some other material, enough to build the 6 pieces in the dimensions given below (for a MacBook Pro)
 * <img src="https://user-images.githubusercontent.com/59896196/167030780-ff4d78b0-9e83-4c19-9294-095c5b1fb160.png" width="600" height="400">
 * 1 hinge
 * 6 screws
@@ -123,7 +123,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 11. <img src="https://user-images.githubusercontent.com/59896196/165603889-6f4c4af1-1763-4823-b384-dd6da6e5bc2a.png" width="400" height = "200">
 12. Download the sketch "secret_knock_computer_lock_code.ino" in this repository, which is modified from [this](https://electronics.divinechildhighschool.org/electronics-class/logs-for-fall-2009/secret-knock-final) orginal code. Open it in Arduino and upload the sketch.
 13. Open the serial monitor and try tapping out the knock "Shave and a haircut, 2 bits" on your Piezo knock sensor. The serial monitor should print when you start knocking, and also print to indicate each subsequent knock. It should also print if your knock was correct or incorrect. If you knock was correct, the motor should turn. Mess around with the constant values at the top if needed.
-14. Using a laser cutter, cut out the 6 pieces of wood illustrated below in the given dimensions. These dimensions are for a MacBook Pro. If you have a bigger computer, you'll need to adjust the measurements.
+14. Using a laser cutter, cut out the 6 pieces of wood illustrated below in the given dimensions. These dimensions are for a MacBook Pro, so whatever design is used, the case needs to be at least 14" long and 10" wide. If you have a bigger computer, you'll need to adjust the measurements.
 15. <img src="https://user-images.githubusercontent.com/59896196/167030780-ff4d78b0-9e83-4c19-9294-095c5b1fb160.png" width="600" height="400">
 16. For fun, you can engrave a design on the wood using a laser engraver. I engraved a door knock.
 17. Use a drill and 2 screws to attach your hinge to one cross piece and one small piece. I messed up and attached the hinge wrong several times. To make it look nice, you'll want to drill the hinge to the part of the wood that will be on the inside of the case. *Make sure* the small square is situated slightly beyond the end of the cross piece of wood, and not directly on top. Otherwise the edges of the wood will collide and there will not be enough space for the small wooden piece to hinge open.
