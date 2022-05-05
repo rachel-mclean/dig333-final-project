@@ -95,6 +95,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * Male/male jumper wires
 * USB-C adaptor, if you have a Mac computer
 * Wood, enough to build the 6 pieces in the dimensions given below (for a MacBook Pro)
+* <img src="https://user-images.githubusercontent.com/59896196/167030780-ff4d78b0-9e83-4c19-9294-095c5b1fb160.png" width="600" height="400">
 * 1 hinge
 * 6 screws
 * 1 sewing needle (or similar)
@@ -118,18 +119,19 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 7. Set up your circuit according to this schematic, using your 1M resistor and Piezo knock sensor (your sensor and Adafruit Circuit Playground Express look different than the ones in this picture, but the circuit is the same). Use the AO and GND pins on the Adafruit Circuit Playground Express.
 8. <img src="https://user-images.githubusercontent.com/59896196/165549001-18351730-207b-45dd-81f7-7ac144fe22cb.png" width = "400" height = "250">
 9. Select File —> Examples —> Adafruit Circuit Playground —> analog_sensors. Upload the sketch, then click the serial monitor button in the right-hand corner (it looks like a magnifying glass). Tap your Piezo knock sensor and verify that the serial monitor is printing values that make sense.
-10. Add your Servo motor to the circuit using this schematic. I used the A3, GND, and VOUT pins, but you can also use A2.
+10. Attach your Servo motor to the Circuit Playground using this schematic. I used the A3 instead of A2, and the GND and VOUT pins. If you use A2 you'll need to change that in the code.
 11. <img src="https://user-images.githubusercontent.com/59896196/165603889-6f4c4af1-1763-4823-b384-dd6da6e5bc2a.png" width="400" height = "200">
 12. Download the sketch "secret_knock_computer_lock_code.ino" in this repository, which is modified from [this](https://electronics.divinechildhighschool.org/electronics-class/logs-for-fall-2009/secret-knock-final) orginal code. Open it in Arduino and upload the sketch.
 13. Open the serial monitor and try tapping out the knock "Shave and a haircut, 2 bits" on your Piezo knock sensor. The serial monitor should print when you start knocking, and also print to indicate each subsequent knock. It should also print if your knock was correct or incorrect. If you knock was correct, the motor should turn. Mess around with the constant values at the top if needed.
 14. Using a laser cutter, cut out the 6 pieces of wood illustrated below in the given dimensions. These dimensions are for a MacBook Pro. If you have a bigger computer, you'll need to adjust the measurements.
-15. For fun, you can engrave a design on the wood using a laser engraver. I engraved a door knock.
-16. Use a drill and 2 screws to attach your hinge to one cross piece and one small piece. I messed up and attached the hinge wrong several times. To make it look nice, you'll want to drill the hinge to the part of the wood that will be on the inside of the case. *Make sure* the small square is situated slightly beyond the end of the cross piece of wood, and not directly on top. Otherwise the edges of the wood will collide and there will not be enough space for the small wooden piece to hinge open.
-17. Glue the rest of the pieces together using wood glue according to the design below and let it dry for 24-48 hours. You'll need to prop up the sides to support the structure. Clamps help too. Or, fix the pieces together using something other than wood glue.
-18. <img src="https://user-images.githubusercontent.com/59896196/163921910-44a6b30e-a00f-4fbd-83e2-be316050d9f9.png" width="400" height="300" >
-19. Attach the servo motor to the top of the case, just beyond the hole. To rig my lock, I attached a sewing needle to the Servo motor using a staple and tiny rubber band. I attached a loop made of wire to the inside of the front piece of wood. When the sewing needle is inside this loop, the lock stays closed. When the case is unlocked and the motor turns, the sewing needle rotates out of the loop and the case can be unlocked. Other scavenged materials could work just as well (or better).
-20. Put the rest of the components inside a box or some container with a hole, so that the parts are protected. Let the sensor stick outside of the box so that it's accessible. I attached an eraser to the top of the sensor to extend the knocking platform. Other materials could work as well but I found that the eraser worked best.
-21. Before you lock your computer, try locking a textbook or notebook. Make sure you can place and remove the textbook without scratching or damaging it before trying it out on your computer, especially if you're using something sharp as part of the lock.
+15. <img src="https://user-images.githubusercontent.com/59896196/167030780-ff4d78b0-9e83-4c19-9294-095c5b1fb160.png" width="600" height="400">
+16. For fun, you can engrave a design on the wood using a laser engraver. I engraved a door knock.
+17. Use a drill and 2 screws to attach your hinge to one cross piece and one small piece. I messed up and attached the hinge wrong several times. To make it look nice, you'll want to drill the hinge to the part of the wood that will be on the inside of the case. *Make sure* the small square is situated slightly beyond the end of the cross piece of wood, and not directly on top. Otherwise the edges of the wood will collide and there will not be enough space for the small wooden piece to hinge open.
+18. Glue the rest of the pieces together using wood glue according to the design below and let it dry for 24-48 hours. You'll need to prop up the sides to support the structure. Clamps help too. Or, fix the pieces together using something other than wood glue.
+19. <img src="https://user-images.githubusercontent.com/59896196/163921910-44a6b30e-a00f-4fbd-83e2-be316050d9f9.png" width="400" height="300" >
+20. Attach the servo motor to the top of the case, just beyond the hole. To rig my lock, I attached a sewing needle to the Servo motor using a staple and tiny rubber band. I attached a loop made of wire to the inside of the front piece of wood. When the sewing needle is inside this loop, the lock stays closed. When the case is unlocked and the motor turns, the sewing needle rotates out of the loop and the case can be unlocked. Other scavenged materials could work just as well (or better).
+21. Put the rest of the components inside a box or some container with a hole, so that the parts are protected. Let the sensor stick outside of the box so that it's accessible. I attached an eraser to the top of the sensor to extend the knocking platform. Other materials could work as well but I found that the eraser worked best.
+22. Before you lock your computer, try locking a textbook or notebook. Make sure you can place and remove the textbook without scratching or damaging it before trying it out on your computer, especially if you're using something sharp as part of the lock.
 
 
 
