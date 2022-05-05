@@ -68,7 +68,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * <img src = "https://user-images.githubusercontent.com/59896196/166813794-7b3f1776-6bbd-43f2-a6c9-ef36d7c014b2.jpg" width="350" height="500">
 * I re-tested all components together, [Video Here.](https://drive.google.com/file/d/1woGJzguI93DCRYlKL7eZGD9Rzqljm2yh/view?usp=sharing) 
 * I realized that I can run the program with my computer closed. This is good, because it means I can actually lock my computer using my project. Otherwise it would be completely useless!
-* I rigged the lock using a sewing needle and a wire. The inside mechanics consisted of a yellow wire with protective plastic coating, in the shape of a loop. When the lock is locked, the sewing needle sits inside the loop and prevents the hinged door from opening. When the lock is unlocked, the Servo turns about 90 degrees and the needle slides out of the loop, allowing the door to open and your computer to be removed.
+* I rigged the lock using a sewing needle and a wire. The inside mechanics consisted of a yellow wire with protective plastic coating, in the shape of a loop. When locked, the sewing needle sits inside the loop and prevents the hinged door from opening. When the lock is unlocked, the Servo turns about 90 degrees and the needle slides out of the loop, allowing the door to open and your computer to be removed.
 * <img src = "https://user-images.githubusercontent.com/59896196/166852966-e2647870-12a0-403d-bbae-aa355c347371.jpg" width="350" height="500">
 * <img src = "https://user-images.githubusercontent.com/59896196/166853238-099957fc-6bec-4fb2-8602-33abe42901cb.jpg" width="400" height="550">
 
