@@ -120,7 +120,7 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 9. Select File —> Examples —> Adafruit Circuit Playground —> analog_sensors. Upload the sketch, then click the serial monitor button in the right-hand corner (it looks like a magnifying glass). Tap your Piezo knock sensor and verify that the serial monitor is printing values that make sense.
 10. Add your Servo motor to the circuit using this schematic. I used the A3, GND, and VOUT pins, but you can also use A2.
 11. <img src="https://user-images.githubusercontent.com/59896196/165603889-6f4c4af1-1763-4823-b384-dd6da6e5bc2a.png" width="400" height = "200">
-12. Download the sketch "secret_knock_computer_lock_code.ino" in this repository. Open it in Arduino and upload the sketch.
+12. Download the sketch "secret_knock_computer_lock_code.ino" in this repository, which is modified from [this](https://electronics.divinechildhighschool.org/electronics-class/logs-for-fall-2009/secret-knock-final) orginal code. Open it in Arduino and upload the sketch.
 13. Open the serial monitor and try tapping out the knock "Shave and a haircut, 2 bits" on your Piezo knock sensor. The serial monitor should print when you start knocking, and also print to indicate each subsequent knock. It should also print if your knock was correct or incorrect. If you knock was correct, the motor should turn. Mess around with the constant values at the top if needed.
 14. Using a laser cutter, cut out the 6 pieces of wood illustrated below in the given dimensions. These dimensions are for a MacBook Pro. If you have a bigger computer, you'll need to adjust the measurements.
 15. For fun, you can engrave a design on the wood using a laser engraver. I engraved a door knock.
