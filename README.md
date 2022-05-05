@@ -72,8 +72,10 @@ Finalize casing for the sensor, motor, and raspberry pi on the physical device. 
 * <img src = "https://user-images.githubusercontent.com/59896196/166852966-e2647870-12a0-403d-bbae-aa355c347371.jpg" width="350" height="500">
 * <img src = "https://user-images.githubusercontent.com/59896196/166853238-099957fc-6bec-4fb2-8602-33abe42901cb.jpg" width="400" height="550">
 * Next, I tested a secret knock with the lock to make sure it worked. [Video of the secret knock with the lock here.](https://drive.google.com/file/d/1JxasYOTA9yxNGOqvPCbQ6JIbaI-sD3M1/view?usp=sharing)
-* I put all wiring into a box with a hole in the top, so that the Arduino, motor, and sensor can remain hooked to the outside of the case.
+* I put all wiring into a box with a hole in the top, so that the Arduino, motor, and sensor can remain hooked to the outside of the case. I secured the sensor and eraser to the top of the components box.
 * <img src = "https://user-images.githubusercontent.com/59896196/166854188-cd25eca2-c184-4cf2-addb-d8e1d225ea17.jpg" width="350" height="500">
+* One benefit of the hole in the top of the box is that the box fills with green or red light, when a knock is correctly or incorrectly performed. When the Arduino was outside of the box, the blinking of the LEDs was not as noticeable.
+* Below is a video of the lock in action. My computer is locked inside the case, before the correct secret knock is performed and I am able to remove it.
 
 
 
