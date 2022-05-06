@@ -4,11 +4,10 @@
 
 Servo myServo;
 
+// Code modified from https://electronics.divinechildhighschool.org/electronics-class/logs-for-fall-2009/secret-knock-final 
+
 // Pin definitions
-
 const int knockSensor = A0;         // Piezo sensor on pin 0.
-
- 
 
 // Tuning constants.  Could be made vars and hoooked to potentiometers for soft configuration, etc.
 
@@ -23,6 +22,7 @@ const int knockFadeTime = 150;     // milliseconds we allow a knock to fade befo
 const int maximumKnocks = 20;       // Maximum number of knocks to listen for.
 
 const int knockComplete = 1300;     // Longest time to wait for a knock before we assume that it's finished.
+
 
 // Variables.
 
